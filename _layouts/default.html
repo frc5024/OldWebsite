@@ -3,27 +3,18 @@
   {% include head.html %}
   <body>
       {% include header.html %}
-      
       <section id="projects">
-        {% include projects.html %}
+        {% include featured.html %}
       </section>
-    <section id="about">
-        {% include about.html %}
+
+      <section id="robots">
+        {% include robots.html %}
       </section>
-    <section id="projects">
-      {% include leads.html %}
-    </section>
-<!--         {{ content }} -->
+
+      <section id="documentation">
+        {% include documentation.html %}
+      </section>
+      
+        <!-- {{ content }} -->
       {% include footer.html %}
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139497732-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-139497732-1');
-    </script>
-
   </body>

@@ -1,7 +1,17 @@
 <footer class="footer">
-    <p>&copy; {{site.username}}</p>
+    <p>&copy; {{site.title}}</p>
 </footer>
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/custom.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/console.js" | prepend: site.baseurl }}"></script>
+
+<!-- Particles -->
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', '/assets/particles.json', function() {
+    // console.log('callback - particles.js config loaded');
+    });
+</script>
 {% include google-analytics.html %}
