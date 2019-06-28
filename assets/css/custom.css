@@ -1,0 +1,41 @@
+:root{
+    --beal-yellow:#f2de15;
+    --beal-blue:#171f5f;
+}
+
+.projects.p{
+    color:var(--beal-blue);
+}
+
+.footer{
+    background-color:var(--beal-blue);
+}
+
+.project-link{
+    /* border-color: var(--beal-yellow); */
+    /* color: var(--beal-blue); */
+}
+
+#particles-js{
+    background-color: var(--beal-blue);
+}
+
+.fa-chevron-down{
+    color: var(--beal-yellow);
+}
+
+.segment{
+    height: 100vh;
+}
+
+h1, h3{
+    color:var(--beal-blue);
+}
+
+hr{
+    color: var(--beal-yellow);
+}
+
+a{
+    color: var(--beal-blue);
+}
