@@ -11,11 +11,6 @@
     background-color:var(--beal-blue);
 }
 
-.project-link{
-    /* border-color: var(--beal-yellow); */
-    /* color: var(--beal-blue); */
-}
-
 #particles-js{
     background-color: var(--beal-blue);
 }
@@ -33,7 +28,7 @@ h1, h3{
 }
 
 hr{
-    color: var(--beal-yellow);
+    color: var(--beal-blue);
 }
 
 a{
