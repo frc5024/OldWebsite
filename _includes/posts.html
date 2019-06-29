@@ -1,0 +1,20 @@
+
+<div class="user-details" >
+        <h1> Posts </h1>
+      </div>
+      <div class="user-projects">
+        <div class="images-right">
+            {{site.posts_sidetext}}
+        </div>
+        <div class="contents">
+                {% for post in site.posts %}
+
+                <div class="post">
+                    <h3>{{post.title}}</h3>
+                    <hr>
+                    <!-- <p>{{post.content}}</p> -->
+                </div>
+                
+                {% endfor %}
+        </div>
+      </div>

@@ -30,6 +30,9 @@ secondary_title: ThriftyField
 secondary_description: Our newest offseason project. We are in the progress of writing our own fully custom Field Management System (FMS) software. ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
 secondary_link: https://github.com/frc5024/ThriftyField
 
+posts_sidetext: >-
+  These are team updates from throughout the season
+
 # To add, remove, or edit a robot, modify the files in the _robots directory
 
 # Footer
