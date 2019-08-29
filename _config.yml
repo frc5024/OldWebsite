@@ -12,8 +12,8 @@
 title: Raider Robotics
 subtitle: Programming Team
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://frc5024.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "https://frc5024.github.io" # This fixes an issue with jekyll. This link must be the same as url
+url: "https://cs.5024.ca" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "https://cs.5024.ca" # This fixes an issue with jekyll. This link must be the same as url
 analytics_id: UA-139497732-1
 
 # External links
