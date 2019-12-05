@@ -21,7 +21,7 @@ contact: http://www.raiderrobotics.org/contact
 github: frc5024
 
 # Featured projects
-featured_image: https://instagram.fxds1-1.fna.fbcdn.net/vp/7bb04b87cff9abdcdba62ce1bbb4550a/5DD635CA/t51.2885-15/e35/51738280_818885808458858_1015785813538071128_n.jpg?_nc_ht=instagram.fxds1-1.fna.fbcdn.net
+featured_image: "assets/img/Hatchfield.jpg"
 primary_title: 2019 Codebase
 primary_description: After months of experimentation and three complete rewrites of our base code, we have built a strong base for this year's robot. This year, efficiency is key. Our code runs as fast as possible to give our drivers the most flexibility we can provide.
 primary_link: https://github.com/frc5024/DeepSpace
