@@ -25,7 +25,7 @@ featured_image: "assets/img/2020robot.png"
 primary_title: Darth Raider
 primary_description: >-
   Darth Raider's software was designed from the ground up with automation in mind. 
-  All driver inputs feed a complex, multi-layered FSM that handles system coordination and safety checks.cd 
+  All driver inputs feed a complex, multi-layered FSM that handles system coordination and safety checks.
 primary_link: https://github.com/frc5024/InfiniteRecharge
 
 secondary_title: ThriftyField
