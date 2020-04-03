@@ -21,13 +21,17 @@ contact: http://www.raiderrobotics.org
 github: frc5024
 
 # Featured projects
-featured_image: "assets/img/DRaider.jpg"
-primary_title: 2020 Codebase
-primary_description: Using a state machine design, our drive team can press a button an have the robot do the rest. The state machine system makes driving, and programming the robot a breeze.
+featured_image: "assets/img/2020robot.png"
+primary_title: Darth Raider
+primary_description: >-
+  Darth Raider's software was designed from the ground up with automation in mind. 
+  All driver inputs feed a complex, multi-layered FSM that handles system coordination and safety checks.cd 
 primary_link: https://github.com/frc5024/InfiniteRecharge
 
 secondary_title: ThriftyField
-secondary_description: one of our offseason project. We have written our own fully custom Field Management System (FMS) software. ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
+secondary_description: >-
+   One of our largest offseason projects. We have written our own fully custom Field Management System (FMS) software. 
+   ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
 secondary_link: https://github.com/frc5024/ThriftyField
 
 # To add, remove, or edit a robot, modify the files in the _robots directory
