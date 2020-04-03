@@ -17,17 +17,17 @@ domain: "https://cs.5024.ca" # This fixes an issue with jekyll. This link must b
 analytics_id: UA-139497732-1
 
 # External links
-contact: http://www.raiderrobotics.org/contact
+contact: http://www.raiderrobotics.org
 github: frc5024
 
 # Featured projects
-featured_image: "assets/img/Hatchfield.jpg"
-primary_title: 2019 Codebase
-primary_description: After months of experimentation and three complete rewrites of our base code, we have built a strong base for this year's robot. This year, efficiency is key. Our code runs as fast as possible to give our drivers the most flexibility we can provide.
-primary_link: https://github.com/frc5024/DeepSpace
+featured_image: "assets/img/DRaider.jpg"
+primary_title: 2020 Codebase
+primary_description: Using a state machine design, our drive team can press a button an have the robot do the rest. The state machine system makes driving, and programming the robot a breeze.
+primary_link: https://github.com/frc5024/InfiniteRecharge
 
 secondary_title: ThriftyField
-secondary_description: Our newest offseason project. We are in the progress of writing our own fully custom Field Management System (FMS) software. ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
+secondary_description: one of our offseason project. We have written our own fully custom Field Management System (FMS) software. ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
 secondary_link: https://github.com/frc5024/ThriftyField
 
 # To add, remove, or edit a robot, modify the files in the _robots directory
