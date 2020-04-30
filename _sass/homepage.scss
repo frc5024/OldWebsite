@@ -11,7 +11,7 @@
     margin: 0;
   }
 
-  h3 {
+  h2 {
     color: rgb(89, 89, 89);
     padding: 0;
     margin: 0;
@@ -42,5 +42,24 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 15px;
+    @media only screen and (min-device-width: 768px) {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+    }
+    padding: 10px;
+  }
+}
+
+// Once the screen is too small, clear the particles
+#particles-js {
+  display: none !important;
+}
+@media only screen and (min-device-width: 768px) {
+  #particles-js {
+    display: unset !important;
   }
 }

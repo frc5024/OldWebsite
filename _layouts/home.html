@@ -14,10 +14,8 @@ layout: compress
 
             <div id="homepage-heading">
                 <h1>{{site.title}}</h1>
-                <h3>{{site.subtitle}}</h3>
+                <h2>{{site.subtitle}}</h2>
             </div>
-
-            
 
             <div id="robots">
 
@@ -26,8 +24,9 @@ layout: compress
                 <div class="robot">
 
                     {%- comment -%}This builds an image using the params in the robot config{%- endcomment -%}
-                    <img src="{{site.baseurl}}/assets/images/robots/{{robot.img_src}}" alt="{{robot.name}}"
-                        width="{{robot.scale}}px">
+                    <a href="https://frc5024.github.io/webdocs{{robot.webdocs}}"><img
+                            src="{{site.baseurl}}/assets/images/robots/{{robot.img_src}}" alt="{{robot.name}}"
+                            width="{{robot.scale}}px"></a>
 
                     {%- comment -%}This builds both a link to the webdocs page, and a GitHub link{%- endcomment -%}
                     <span class="inline"><a href="https://frc5024.github.io/webdocs{{robot.webdocs}}">
@@ -41,6 +40,8 @@ layout: compress
         </div>
 
     </div>
+
+    <div id="particles-js"></div>
 
     {% include foot.html %}
 </body>
