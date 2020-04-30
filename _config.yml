@@ -23,6 +23,7 @@ github: frc5024
 ## JEKYLL CONFIG ##
 collections:
   - robots
+  - posts
 
 sass:
   sass_dir: _sass
