@@ -14,34 +14,19 @@ subtitle: Programming Team
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cs.5024.ca" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "https://cs.5024.ca" # This fixes an issue with jekyll. This link must be the same as url
-analytics_id: UA-139497732-1
+analytics_id: UA-139497732-1 # Google analytics
 
 # External links
 contact: http://www.raiderrobotics.org
 github: frc5024
 
-# Featured projects
-featured_image: "assets/img/2020robot.png"
-primary_title: Darth Raider
-primary_description: >-
-  Darth Raider's software was designed from the ground up with automation in mind. 
-  All driver inputs feed a complex, multi-layered FSM that handles system coordination and safety checks.
-primary_link: https://github.com/frc5024/InfiniteRecharge
-
-secondary_title: ThriftyField
-secondary_description: >-
-   One of our largest offseason projects. We have written our own fully custom Field Management System (FMS) software. 
-   ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
-secondary_link: https://github.com/frc5024/ThriftyField
-
-# To add, remove, or edit a robot, modify the files in the _robots directory
-
-# Footer
-
-
 ## JEKYLL CONFIG ##
 collections:
   - robots
+  - posts
+
+sass:
+  sass_dir: _sass
 
 markdown: kramdown
 theme: minima
@@ -52,15 +37,12 @@ plugins:
   - jekyll-mentions
   - jekyll-seo-tag
 
-
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

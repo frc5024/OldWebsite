@@ -1,15 +1,23 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- comment -%}Meta tags to make browsers happy{%- endcomment -%}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+{%- comment -%}This will automatically set the page title if the markdown file has a title property{%- endcomment -%}
+<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | prepend: site.baseurl }}">
+{%- comment -%}Meta tags to make the website show up nice on Google search{%- endcomment -%}
+<meta name="description"
+    content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <meta name="google-site-verification" content="b9MZoxg5F0OHlf45sLQcEaCNX5jwS1AiD9_ADDFOVwM" />
+{%- comment -%}Page styles{%- endcomment -%}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/9051c878c3.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
-  {%seo%}
-</head>
+{%- comment -%}Analytics & GoogleAds verification{%- endcomment -%}
+<meta name="google-site-verification" content="b9MZoxg5F0OHlf45sLQcEaCNX5jwS1AiD9_ADDFOVwM" />
+
+{%- comment -%}This enables a plugin that automatically handles SEO for us{%- endcomment -%}
+{% seo %}

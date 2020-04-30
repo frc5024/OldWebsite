@@ -1,0 +1,24 @@
+---
+# This will compress the HTML file
+layout: compress
+---
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+
+    <div class="page-wrapper" style="{{page.custom_style}}">
+        <div class="container page-content">
+
+            {{content}}
+
+        </div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    {% include foot.html %}
+</body>
