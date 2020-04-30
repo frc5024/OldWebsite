@@ -36,7 +36,7 @@
 /* Container */
 .home-content {
   position: absolute;
-  width: 100vw;
+  width: 100%;
 
   @media only screen and (min-device-width: 768px) and (min-device-height: 530px) {
     top: 50%;
@@ -47,10 +47,10 @@
   .container {
     background-color: #fff;
     border-radius: 15px;
+    padding: 30px;
     @media only screen and (min-device-width: 768px) {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
     }
-    padding: 10px;
   }
 }
 
@@ -60,6 +60,7 @@
 }
 @media only screen and (min-device-width: 768px) {
   #particles-js {
-    display: unset !important;
+    display: inline-block !important;
+    height: 100vh !important;
   }
 }
