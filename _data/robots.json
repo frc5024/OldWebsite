@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Darth Raider",
+        "img_src": "2020.png",
+        "year": 2020,
+        "scale": 120,
+        "gh_repo": "frc5024/InfiniteRecharge",
+        "webdocs": "/docs/robots/darthRaider"
+    },
+    {
+        "name": "HATCHField",
+        "img_src": "2019.png",
+        "year": 2019,
+        "scale": 110,
+        "gh_repo": "frc5024/DeepSpace",
+        "webdocs": "/docs/robots/hatchfield"
+    },
+    {
+        "name": "MiniBot",
+        "img_src": "minibot.png",
+        "year": 2019,
+        "scale": 100,
+        "gh_repo": "frc5024/MiniBot",
+        "webdocs": "/docs/robots/minibot"
+    },
+    {
+        "name": "Q*bert",
+        "img_src": "2018.png",
+        "year": 2018,
+        "scale": 150,
+        "gh_repo": "frc5024/PowerUP",
+        "webdocs": "/docs/robots/qbert"
+    },
+    {
+        "name": "Watt",
+        "img_src": "2017.png",
+        "year": 2017,
+        "scale": 105,
+        "gh_repo": "frc5024/Steamworks",
+        "webdocs": "/docs/robots/watt"
+    },
+    {
+        "name": "Guinevere",
+        "img_src": "2016.png",
+        "year": 2016,
+        "scale": 120,
+        "gh_repo": "frc5024/Stronghold",
+        "webdocs": "/docs/robots/guinevere"
+    },
+    {
+        "name": "Herbert",
+        "img_src": "2015.png",
+        "year": 2015,
+        "scale": 140,
+        "gh_repo": "frc5024/Recyclerush",
+        "webdocs": "/docs/robots/herbert"
+    },
+    {
+        "name": "Benson",
+        "img_src": "2014.png",
+        "year": 2014,
+        "scale": 120,
+        "gh_repo": "frc5024/ArialAssist",
+        "webdocs": "/docs/robots/benson"
+    }
+]

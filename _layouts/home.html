@@ -6,6 +6,41 @@ layout: compress
 <head>
     {% include head.html %}
 </head>
+
 <body>
-    
+    <div class="home-content">
+
+        <div class="container">
+
+            <div id="homepage-heading">
+                <h1>{{site.title}}</h1>
+                <h3>{{site.subtitle}}</h3>
+            </div>
+
+            
+
+            <div id="robots">
+
+                {%- comment -%}This iterates through all robots defined in _data/robots.json{%- endcomment -%}
+                {% for robot in site.data.robots %}
+                <div class="robot">
+
+                    {%- comment -%}This builds an image using the params in the robot config{%- endcomment -%}
+                    <img src="{{site.baseurl}}/assets/images/robots/{{robot.img_src}}" alt="{{robot.name}}"
+                        width="{{robot.scale}}px">
+
+                    {%- comment -%}This builds both a link to the webdocs page, and a GitHub link{%- endcomment -%}
+                    <span class="inline"><a href="https://frc5024.github.io/webdocs{{robot.webdocs}}">
+                            <p class="robotname">{{robot.name}}</p>
+                        </a> <a href="https://github.com/{{robot.gh_repo}}"><i class="fab fa-github"></i></a></span>
+                </div>
+
+                {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+
+    {% include foot.html %}
 </body>

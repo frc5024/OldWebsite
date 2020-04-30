@@ -1,0 +1,10 @@
+// This file allows you to define a span with class "inline" to stop contents from breaking
+
+span.inline{
+    white-space:nowrap;
+    display: block;
+}
+
+span.inline * *{
+    display: inline-block;
+}
