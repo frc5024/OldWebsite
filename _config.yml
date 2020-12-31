@@ -29,7 +29,15 @@ sass:
   sass_dir: _sass
 
 markdown: kramdown
-theme: minima
+kramdown:
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+readme_index:
+  with_frontmatter: true
+
+remote_theme: rundocs/jekyll-rtd-theme
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from # https://github.com/jekyll/jekyll-redirect-from
